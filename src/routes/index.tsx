@@ -7,6 +7,7 @@ import { ClinicInfo } from "@/components/ClinicInfo";
 import { Booking } from "@/components/Booking";
 import { Footer } from "@/components/Footer";
 import { MouseGlow } from "@/components/MouseGlow";
+import { ChatAgent } from "@/components/ChatAgent";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -40,6 +41,7 @@ function Index() {
         <Booking />
       </main>
       <Footer />
+      <ChatAgent />
     </div>
   );
 }
